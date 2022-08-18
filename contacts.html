@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>CONTACT</h1>
+    <h3>MOBILE-850707591</h3>
+    <h3>Gmail-satheeshsathish1234@gmail.com</h3>
+    <h3>linkedin-linkedin/satheeshmuthusamy</h3>
+    <form action="mailto:info@satheeshsathish1234@gmail.com" method="post" enctype="text/plain">
+
+        <label>Name:</label>
+        <input type="text" name="yourName" placeholder="Enter your name"><br>
+        <label>E-mail:</label>
+        <input type="email" name="yourEmail" placeholder="Enter your Email"><br>
+        <label>DOB:</label>
+        <input type="date" name="dateofbirth" placeholder="Enter your DOB"><br>
+        <!-- <label>E-mail password:</label>
+        <input type="password" name="pd" placeholder="Enter your PWD"><br> -->
+        <!-- <label>salary package</label>
+        <input type="range" name="salary" list="tickmarks"> -->
+        <datalist id="tickmarks">
+            <option value="0" label="0%"></option>
+            <option value="20" label="20%"></option>
+            <option value="40" label="40%"></option>
+            <option value="60" label="60%"></option>
+            <option value="80" label="80%"></option>
+            <option value="100" label="100%">10</option>
+        </datalist>
+        <br>
+        <!-- <lebel>fav color:</lebel>
+        <input type="color" name="color" range="1-10"><br> -->
+        <textarea type=text name="yourMessage" row="8" col="50">
+
+        </textarea>
+        <input type="submit"></input>
+    </form>
+</body>
+
+</html>

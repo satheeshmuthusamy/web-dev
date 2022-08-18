@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(218, 108, 18);
+}
+
+img {
+    background-color: red;
+}
+
+
+/* css should be always in alphabatical order inside the selectors */
